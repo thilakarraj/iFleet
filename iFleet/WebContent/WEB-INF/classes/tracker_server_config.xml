@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+
+<properties>
+
+    <entry key="config.default">./setup/default.xml</entry>
+
+    <entry key='web.path'>./traccar-web/web</entry>
+    <entry key='web.debug'>true</entry>
+    <entry key='web.console'>true</entry>
+
+    <entry key='geocoder.enable'>true</entry>
+
+<!--     <entry key='logger.file'>C:/logs/devices.log</entry> -->
+   	<entry key='web.enable'>false</entry>
+    <entry key='web.port'>8082</entry>
+    <entry key='web.path'>./web</entry>
+
+    <entry key='geocoder.enable'>true</entry>
+    <entry key='geocoder.type'>google</entry>
+
+    <entry key='logger.enable'>true</entry>
+    <entry key='logger.level'>all</entry>
+    <entry key='logger.file'>C:/logs/devices.log</entry>
+
+    <entry key='event.enable'>true</entry>
+    <entry key='processing.computedAttributes.enable'>true</entry>
+
+    <entry key='media.path'>./media</entry>
+   
+    <entry key='intellitrac.port'>6037</entry>
+
+    <entry key='intellitrac.port'>6037</entry>
+
+</properties>
